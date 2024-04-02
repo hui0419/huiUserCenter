@@ -1,0 +1,10 @@
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bj-cynosdbmysql-grp-l6697ewg.sql.tencentcdb.com:23104/hui
+    username: root
+    password: hui112358.
+  # session 失效时间
+  session:
+    timeout: 86400
